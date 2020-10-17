@@ -15,7 +15,7 @@ export class Component2Component implements OnInit, AfterViewInit {
 
   ngOnInit() {
     console.log('OnInit na dziecku');
-    this.component1.name = 'updated text';
+    // this.component1.text = 'updated text';
 
   }
 
